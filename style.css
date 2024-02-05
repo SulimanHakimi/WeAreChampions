@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.continair {
+  width: 80%;
+  height: fit-content;
+  margin: 0px auto;
+  /* background-color: #344e41; */
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.t-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: fit-content;
+  width: 100%;
+}
+.t-page img {
+  width: 250px;
+}
+.senders {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+#fromInp,
+#toInp {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 7px 14px;
+  height: 40px;
+  background-color: rgb(63, 63, 63);
+  width: 177px;
+  font-size: 17px;
+  color: white;
+}
+.t-page span {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+#main-input {
+  resize: none;
+  padding: 10px 18px;
+  background-color: rgb(63, 63, 63);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+}
+::placeholder {
+  color: rgb(177, 177, 177);
+}
+.t-page button {
+  width: 365px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #00679e;
+  border: none;
+  color: rgb(233, 233, 233);
+  border-radius: 7px;
+  cursor: pointer;
+}
+.t-page button:hover {
+  background-color: #00679e9d;
+}
+.b-page {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 50px;
+  margin-top: 50px;
+  align-items: center;
+  width: 100%;
+}
+.b-page .title {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.mess-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  height: fit-content;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.mess-div {
+  width: 350px;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 3px;
+  background-color: white;
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 25px;
+}
+.mess-div span {
+  font-weight: 600;
+}
